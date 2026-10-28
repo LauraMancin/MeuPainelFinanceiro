@@ -25,20 +25,24 @@
           <div class="bar"><i id="pb" style="width: 0"></i></div>
           <p id="pt" class="mu"></p>
         </div>
+
         <div class="grid">
           <div class="card">
             <small>Patrimônio</small>
             <div class="k" id="kp"></div>
           </div>
+
           <div class="card">
             <small>Saldo do mês</small>
             <div class="k" id="ks"></div>
           </div>
+
           <div class="card">
             <small>Gasto hoje</small>
             <div class="k" id="kg"></div>
           </div>
         </div>
+
         <div class="card">
           <h2>Evolução do patrimônio</h2>
           <div id="ch"></div>
@@ -53,22 +57,23 @@
               >Tipo<select id="lt">
                 <option value="s">Saída</option>
                 <option value="e">Entrada</option>
-              </select></label
-            >
-            <label
-              >Valor (R$)<input
+              </select></label>
+
+            <label>Valor (R$)<input
                 id="lv"
                 type="number"
                 step="0.01"
                 min="0"
-                inputmode="decimal"
-            /></label>
-            <label>Data<input id="ld" type="date" /></label>
+                inputmode="decimal"/>
+              </label>
+
+            <label>Data<input id="ld" type="date"/></label>
           </div>
+
           <div class="row">
             <label>Descrição<input id="lde" maxlength="60" /></label>
-            <label
-              >Categoria<select id="lc">
+
+            <label>Categoria<select id="lc">
                 <option>Moradia</option>
 
                 <option>Alimentação</option>
@@ -88,6 +93,7 @@
           </div>
 
           <button class="btn" id="la">Adicionar</button>
+
         </div>
 
         <div class="card">
@@ -129,6 +135,7 @@
                 <option value="r">Rendimento</option>
                 <option value="t">Retirada</option>
               </select></label>
+
             <label>Valor (R$)<input
                 id="pv"
                 type="number"
